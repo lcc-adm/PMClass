@@ -4,43 +4,56 @@
   <head>
     <meta charset="utf-8" />
     <title>text page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <style>
       html {
         background: #f3eced;
         color: #fa7f01;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; 
       }
 
       h1 {
-        color: blue;
+        color: #0000ff;
         text-align: center;
         letter-spacing: -2px;
         word-spacing: 50px;
         text-shadow: 2px 2px 25px red;
         font-size: 100px;
+        font-family: 'Alfa Slab One', cursive;
       }
 
       mark {
         background-color: #fa7f01;
         color: #f3eced;
       }
+
+      #green {
+        color: #00ff00;
+      }
+
+      .pink {color:pink;}
+
     </style>
   </head>
 
   <body>
     <p>hey buddy, you should go <a href="index.html">back to homepage</a></p>
 
-    <p>
+    <p class="pink">
       go to the
       <a href="https://lcc-adm.github.io/eresa-students/">student portal</a>
     </p>
 
     <h4>this is my text site...</h4>
-    <h1>this is the big ol headline</h1>
+    <h1 id="green">this is <span class="pink">NOT</span> the big ol headline</h1>
 
     <!-- comments go here. -->
 
     <h2>sub-heading that is less important</h2>
 
+    <h1>this is not a headline</h1>
     <p>this is basic body text here. it is your normal text stuff. neato.</p>
     <h3>smaller sub-heading thing here</h3>
 
